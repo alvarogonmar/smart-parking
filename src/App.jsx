@@ -7,3 +7,6 @@ import "./components/ParkingSlot.css";
 
 function App() {
   const [spots, setSpots] = useState([]);
+
+  useEffect(() => {
+    const spotsCollection = collection(db, "parking-slots");
