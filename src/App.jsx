@@ -10,3 +10,5 @@ function App() {
 
   useEffect(() => {
     const spotsCollection = collection(db, "parking-slots");
+
+    const unsubscribe = onSnapshot(spotsCollection, (snapshot) => {
