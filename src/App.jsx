@@ -6,3 +6,4 @@ import "./App.css";
 import "./components/ParkingSlot.css";
 
 function App() {
+  const [spots, setSpots] = useState([]);
