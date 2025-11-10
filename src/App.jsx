@@ -5,3 +5,4 @@ import ParkingSlot from "./components/ParkingSlot";
 import "./App.css";
 import "./components/ParkingSlot.css";
 
+function App() {
