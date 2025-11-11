@@ -17,4 +17,8 @@ function App() {
     const unsubscribe = onSnapshot(spotsCollection, (snapshot) => {
       const spotsData = snapshot.docs.map((doc) => ({
         id: doc.id,
+        ...doc.data(),
+      }));
+      setSpots(spotsData);
+    });
 
