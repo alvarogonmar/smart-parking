@@ -30,4 +30,6 @@ function App() {
       <Routes>
         <Route path="/" element={
           <div className="app-container">
+            <Header />
+            {spots.length === 0 && <p className="loading-text">Cargando datos...</p>}
 
