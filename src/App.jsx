@@ -41,4 +41,6 @@ function App() {
         } />
         <Route path="/login" element={<LogInPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
 
