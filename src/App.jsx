@@ -22,3 +22,7 @@ function App() {
       setSpots(spotsData);
     });
 
+    return () => unsubscribe();
+  }, []);
+
+
