@@ -37,4 +37,6 @@ function App() {
                 <ParkingSlot key={spot.id} spot={spot} />
               ))}
             </div>
+          </div>
+        } />
 
