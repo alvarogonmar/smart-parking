@@ -39,4 +39,6 @@ function App() {
             </div>
           </div>
         } />
+        <Route path="/login" element={<LogInPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
