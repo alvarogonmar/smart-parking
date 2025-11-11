@@ -32,4 +32,9 @@ function App() {
           <div className="app-container">
             <Header />
             {spots.length === 0 && <p className="loading-text">Cargando datos...</p>}
+            <div className="parking-container">
+              {spots.map((spot) => (
+                <ParkingSlot key={spot.id} spot={spot} />
+              ))}
+            </div>
 
