@@ -11,3 +11,8 @@ function LoginPage() {
     if (password === "1234") {
       alert("Login exitoso");
       navigate("/dashboard"); // vuelve a la página principal
+    } else {
+      alert("Contraseña incorrecta");
+    }
+  };
+
