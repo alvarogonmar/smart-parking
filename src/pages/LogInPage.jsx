@@ -4,4 +4,5 @@ import "../css/LogInPage.css";
 
 function LoginPage() {
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
