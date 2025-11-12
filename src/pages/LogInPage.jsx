@@ -9,3 +9,5 @@ function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password === "1234") {
+      alert("Login exitoso");
+      navigate("/dashboard"); // vuelve a la página principal
