@@ -7,4 +7,5 @@ function LoginPage() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-
+    e.preventDefault();
+    if (password === "1234") {
