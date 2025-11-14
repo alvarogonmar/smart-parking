@@ -21,6 +21,7 @@ function LoginPage() {
       <form className="login-form" onSubmit={handleSubmit}>
         <h2>Ingrese contraseña</h2>
         <input
+          type="password"
 
 }
 
