@@ -17,6 +17,7 @@ function LoginPage() {
   };
 
   return (
+    <div className="login-page">
 
 }
 
