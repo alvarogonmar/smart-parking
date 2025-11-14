@@ -23,6 +23,9 @@ function LoginPage() {
         <input
           type="password"
           placeholder="Contraseña"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
 
 }
 
