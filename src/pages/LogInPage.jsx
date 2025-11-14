@@ -22,6 +22,7 @@ function LoginPage() {
         <h2>Ingrese contraseña</h2>
         <input
           type="password"
+          placeholder="Contraseña"
 
 }
 
