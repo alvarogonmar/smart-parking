@@ -15,3 +15,8 @@ function Dashboard() {
   useEffect(() => {
     const unsubscribe = onSnapshot(collection(db, "parking-slots"), (snapshot) => {
       const data = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+      setSlots(data);
+    });
+
+    return () => unsubscribe(); // Limpia el listener al desmontar
+  }, []);
