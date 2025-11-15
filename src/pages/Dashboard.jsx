@@ -11,3 +11,5 @@ import "../css/Dashboard.css";
 function Dashboard() {
   const [slots, setSlots] = useState([]);
   const navigate = useNavigate();
+
+  useEffect(() => {
