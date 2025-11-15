@@ -6,3 +6,5 @@ import UsageBySlotChart from "../components/dashboard/UsageBySlotChart";
 import UsageByZoneChart from "../components/dashboard/UsageByZoneChart";
 import UsageFrequencyChart from "../components/dashboard/UsageFrequency";
 import UsageCurrentSection from "../components/dashboard/UsageCurrentSection";
+import "../css/Dashboard.css";
+
