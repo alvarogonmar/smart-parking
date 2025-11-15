@@ -8,3 +8,6 @@ import UsageFrequencyChart from "../components/dashboard/UsageFrequency";
 import UsageCurrentSection from "../components/dashboard/UsageCurrentSection";
 import "../css/Dashboard.css";
 
+function Dashboard() {
+  const [slots, setSlots] = useState([]);
+  const navigate = useNavigate();
