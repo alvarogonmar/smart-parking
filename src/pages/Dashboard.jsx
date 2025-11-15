@@ -13,3 +13,4 @@ function Dashboard() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const unsubscribe = onSnapshot(collection(db, "parking-slots"), (snapshot) => {
