@@ -32,3 +32,4 @@ function Dashboard() {
 
       <div className="charts-container">
         <div className="chart-card">
+          <h2>Uso por Cajón (segundos)</h2>
