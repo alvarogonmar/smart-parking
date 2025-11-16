@@ -24,3 +24,5 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
+        <h1>Dashboard de Smart Parking</h1>
+        <button className="back-button" onClick={() => navigate("/")}>
