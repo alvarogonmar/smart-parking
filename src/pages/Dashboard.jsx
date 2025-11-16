@@ -31,3 +31,4 @@ function Dashboard() {
       </div>
 
       <div className="charts-container">
+        <div className="chart-card">
