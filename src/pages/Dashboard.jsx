@@ -29,3 +29,5 @@ function Dashboard() {
           ⬅ Regresar a Smart Parking
         </button>
       </div>
+
+      <div className="charts-container">
