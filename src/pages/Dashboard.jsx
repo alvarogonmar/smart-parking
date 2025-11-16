@@ -35,3 +35,5 @@ function Dashboard() {
           <h2>Uso por Cajón (segundos)</h2>
           <UsageBySlotChart data={slots} />
         </div>
+
+        <div className="chart-card">
