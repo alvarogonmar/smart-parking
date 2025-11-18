@@ -46,3 +46,7 @@ function Dashboard() {
           <UsageFrequencyChart data={slots} />
         </div>
             <UsageCurrentSection slots={slots} />
+      </div>
+    </div>
+  );
+}
