@@ -42,3 +42,4 @@ function Dashboard() {
         </div>
 
         <div className="chart-card">
+          <h2>Frecuencia de Uso por Cajón</h2>
