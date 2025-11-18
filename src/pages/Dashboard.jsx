@@ -39,3 +39,5 @@ function Dashboard() {
         <div className="chart-card">
           <h2>Uso por Zona (segundos)</h2>
           <UsageByZoneChart data={slots} />
+        </div>
+
