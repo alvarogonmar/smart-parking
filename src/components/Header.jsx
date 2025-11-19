@@ -11,3 +11,4 @@ function Header() {
 
   return (
     <header className="app-header">
+      <h1 className="header-title">Smart Parking</h1>
