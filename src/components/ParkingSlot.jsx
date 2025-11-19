@@ -8,3 +8,5 @@ function ParkingSlot({ spot }) {
     >
       <h2>{spot.id}</h2>
       <p>{spot.zoneId.replace("ZONE_", "")}</p>
+    </div>
+  );
