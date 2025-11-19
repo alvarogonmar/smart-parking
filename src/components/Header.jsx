@@ -6,3 +6,6 @@ function Header() {
   const navigate = useNavigate()
 
   const handleLoginClick = () => {
+    navigate("/login");
+  };
+
