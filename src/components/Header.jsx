@@ -4,3 +4,5 @@ import "../css/Header.css";
 
 function Header() {
   const navigate = useNavigate()
+
+  const handleLoginClick = () => {
