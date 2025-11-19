@@ -9,3 +9,5 @@ function Header() {
     navigate("/login");
   };
 
+  return (
+    <header className="app-header">
