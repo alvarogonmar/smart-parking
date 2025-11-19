@@ -10,3 +10,6 @@ function ParkingSlot({ spot }) {
       <p>{spot.zoneId.replace("ZONE_", "")}</p>
     </div>
   );
+}
+
+export default ParkingSlot;
