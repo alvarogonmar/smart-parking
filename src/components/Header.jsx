@@ -12,3 +12,5 @@ function Header() {
   return (
     <header className="app-header">
       <h1 className="header-title">Smart Parking</h1>
+      <div
+        aria-label="User Login Button"
