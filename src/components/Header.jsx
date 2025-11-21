@@ -25,3 +25,4 @@ function Header() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             >
+            <g data-name="Layer 2" id="Layer_2">
