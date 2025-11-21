@@ -16,3 +16,4 @@ function Header() {
         aria-label="User Login Button"
         tabindex="0"
         role="button"
+        className="user-profile"
