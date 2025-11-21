@@ -15,3 +15,4 @@ function Header() {
       <div
         aria-label="User Login Button"
         tabindex="0"
+        role="button"
