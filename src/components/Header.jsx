@@ -17,3 +17,5 @@ function Header() {
         tabindex="0"
         role="button"
         className="user-profile"
+        onClick={handleLoginClick}
+    >
