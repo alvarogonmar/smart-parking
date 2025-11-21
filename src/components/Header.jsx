@@ -20,3 +20,4 @@ function Header() {
         onClick={handleLoginClick}
     >
         <div className="user-profile-inner">
+            <svg
