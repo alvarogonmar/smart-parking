@@ -19,3 +19,4 @@ function Header() {
         className="user-profile"
         onClick={handleLoginClick}
     >
+        <div className="user-profile-inner">
