@@ -7,3 +7,6 @@ import {
   Tooltip,
   ResponsiveContainer
 } from "recharts";
+
+function PeakHoursChart({ logs }) {
+  const hourUsage = Array(24).fill(0);
