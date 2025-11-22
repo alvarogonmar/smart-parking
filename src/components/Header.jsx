@@ -31,3 +31,11 @@ function Header() {
                 ></path>
             </g>
             </svg>
+            <p>Log In</p>
+        </div>
+    </div>
+    </header>
+  );
+}
+
+export default Header;
