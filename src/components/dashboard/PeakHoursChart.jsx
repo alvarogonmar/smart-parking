@@ -15,3 +15,5 @@ function PeakHoursChart({ logs }) {
     const hour = new Date(log.timestamp).getHours();
     hourUsage[hour]++;
   });
+
+  const data = hourUsage.map((count, hour) => ({
