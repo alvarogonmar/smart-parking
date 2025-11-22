@@ -19,3 +19,5 @@ function PeakHoursChart({ logs }) {
   const data = hourUsage.map((count, hour) => ({
     hour: `${hour}:00`,
     uses: count
+  }));
+
