@@ -17,4 +17,5 @@ function UsageBySlotChart({ data }) {
 
   return (
     <div className="chart-container">
+      <ResponsiveContainer width="100%" height={300}>
 
