@@ -21,3 +21,4 @@ function PeakHoursChart({ logs }) {
     uses: count
   }));
 
+  return (
