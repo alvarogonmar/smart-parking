@@ -30,3 +30,5 @@ function PeakHoursChart({ logs }) {
           <YAxis />
           <Tooltip />
           <Bar dataKey="uses" fill="#f59e0b" />
+        </BarChart>
+      </ResponsiveContainer>
