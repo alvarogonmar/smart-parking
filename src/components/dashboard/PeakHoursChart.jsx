@@ -23,3 +23,4 @@ function PeakHoursChart({ logs }) {
 
   return (
     <div className="chart-container">
+      <h2>Horas pico</h2>
