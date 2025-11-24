@@ -10,4 +10,5 @@ import {
 } from "recharts";
 
 function UsageBySlotChart({ data }) {
+  const formattedData = data.map(slot => ({
 
