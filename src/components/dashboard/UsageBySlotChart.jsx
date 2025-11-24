@@ -15,4 +15,5 @@ function UsageBySlotChart({ data }) {
     secondsUsed: slot.totalOccupiedSeconds
   }));
 
+  return (
 
