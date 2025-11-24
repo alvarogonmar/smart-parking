@@ -22,3 +22,4 @@ function PeakHoursChart({ logs }) {
   }));
 
   return (
+    <div className="chart-container">
