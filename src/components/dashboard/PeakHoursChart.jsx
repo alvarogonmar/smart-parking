@@ -32,3 +32,8 @@ function PeakHoursChart({ logs }) {
           <Bar dataKey="uses" fill="#f59e0b" />
         </BarChart>
       </ResponsiveContainer>
+    </div>
+  );
+}
+
+export default PeakHoursChart;
