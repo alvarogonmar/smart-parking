@@ -28,3 +28,4 @@ function PeakHoursChart({ logs }) {
         <BarChart data={data}>
           <XAxis dataKey="hour" />
           <YAxis />
+          <Tooltip />
