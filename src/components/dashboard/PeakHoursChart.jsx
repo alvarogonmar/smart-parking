@@ -25,3 +25,4 @@ function PeakHoursChart({ logs }) {
     <div className="chart-container">
       <h2>Horas pico</h2>
       <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={data}>
