@@ -16,4 +16,5 @@ function UsageBySlotChart({ data }) {
   }));
 
   return (
+    <div className="chart-container">
 
