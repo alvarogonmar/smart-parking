@@ -26,3 +26,4 @@ function PeakHoursChart({ logs }) {
       <h2>Horas pico</h2>
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={data}>
+          <XAxis dataKey="hour" />
