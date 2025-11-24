@@ -27,3 +27,4 @@ function PeakHoursChart({ logs }) {
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={data}>
           <XAxis dataKey="hour" />
+          <YAxis />
