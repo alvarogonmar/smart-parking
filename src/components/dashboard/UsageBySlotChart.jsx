@@ -12,4 +12,7 @@ import {
 function UsageBySlotChart({ data }) {
   const formattedData = data.map(slot => ({
     name: slot.id,
+    secondsUsed: slot.totalOccupiedSeconds
+  }));
+
 
