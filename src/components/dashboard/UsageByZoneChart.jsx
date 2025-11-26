@@ -8,3 +8,5 @@ import {
   Legend
 } from "recharts";
 
+function UsageByZoneChart({ data }) {
+
