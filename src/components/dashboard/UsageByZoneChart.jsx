@@ -9,4 +9,5 @@ import {
 } from "recharts";
 
 function UsageByZoneChart({ data }) {
+  const zoneUsage = {};
 
