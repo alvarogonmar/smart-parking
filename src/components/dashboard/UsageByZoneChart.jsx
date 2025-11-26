@@ -22,3 +22,6 @@ function UsageByZoneChart({ data }) {
     value: zoneUsage[zone]
   }));
 
+  // Sumar todos los valores para detectar "todo 0"
+  const totalValue = formattedData.reduce((sum, item) => sum + (item.value || 0), 0);
+
