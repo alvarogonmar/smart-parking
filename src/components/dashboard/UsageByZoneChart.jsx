@@ -13,4 +13,6 @@ function UsageByZoneChart({ data }) {
 
   data.forEach(slot => {
     const zone = slot.zoneId || "Sin zona";
+    zoneUsage[zone] = (zoneUsage[zone] || 0) + (slot.totalOccupiedSeconds || 0);
+  });
 
