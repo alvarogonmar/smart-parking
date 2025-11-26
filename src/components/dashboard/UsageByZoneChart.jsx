@@ -11,3 +11,5 @@ import {
 function UsageByZoneChart({ data }) {
   const zoneUsage = {};
 
+  data.forEach(slot => {
+
