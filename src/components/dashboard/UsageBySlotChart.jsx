@@ -24,3 +24,8 @@ function UsageBySlotChart({ data }) {
           <YAxis />
           <Tooltip />
           <Bar dataKey="secondsUsed" fill="#4f46e5" />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
+}
