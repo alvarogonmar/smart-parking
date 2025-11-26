@@ -22,3 +22,5 @@ function UsageBySlotChart({ data }) {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
+          <Tooltip />
+          <Bar dataKey="secondsUsed" fill="#4f46e5" />
