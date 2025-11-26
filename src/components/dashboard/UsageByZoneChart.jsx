@@ -25,3 +25,5 @@ function UsageByZoneChart({ data }) {
   // Sumar todos los valores para detectar "todo 0"
   const totalValue = formattedData.reduce((sum, item) => sum + (item.value || 0), 0);
 
+  const noData = totalValue === 0; // true si TODAS las zonas suman 0 minutos
+
