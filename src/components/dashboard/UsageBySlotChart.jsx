@@ -29,3 +29,5 @@ function UsageBySlotChart({ data }) {
     </div>
   );
 }
+
+export default UsageBySlotChart;
