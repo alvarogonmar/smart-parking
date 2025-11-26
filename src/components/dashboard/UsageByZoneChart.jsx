@@ -16,3 +16,6 @@ function UsageByZoneChart({ data }) {
     zoneUsage[zone] = (zoneUsage[zone] || 0) + (slot.totalOccupiedSeconds || 0);
   });
 
+  // Convertir a minutos
+  const formattedData = Object.keys(zoneUsage).map(zone => ({
+
