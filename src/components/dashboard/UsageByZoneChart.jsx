@@ -19,4 +19,6 @@ function UsageByZoneChart({ data }) {
   // Convertir a minutos
   const formattedData = Object.keys(zoneUsage).map(zone => ({
     name: zone.replace("ZONE_", ""),
+    value: zoneUsage[zone]
+  }));
 
