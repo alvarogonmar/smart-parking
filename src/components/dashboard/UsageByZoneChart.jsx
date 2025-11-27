@@ -37,3 +37,5 @@ function UsageByZoneChart({ data }) {
 
   return (
     <div className="chart-container" style={{ position: "relative" }}>
+
+      <ResponsiveContainer width="100%" height={300}>
