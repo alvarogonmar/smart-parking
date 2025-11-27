@@ -34,3 +34,6 @@ function UsageByZoneChart({ data }) {
 
   const COLORS = ["#22c55e", "#3b82f6", "#f59e0b", "#ef4444", "#8b5cf6"];
   const displayColors = noData ? ["#e5e7eb"] : COLORS;
+
+  return (
+    <div className="chart-container" style={{ position: "relative" }}>
