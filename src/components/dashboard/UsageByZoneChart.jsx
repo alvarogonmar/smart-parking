@@ -41,3 +41,14 @@ function UsageByZoneChart({ data }) {
       <ResponsiveContainer width="100%" height={300}>
         <PieChart>
           <Pie
+            data={displayData}
+            dataKey="value"
+            nameKey="name"
+            cx="50%"
+            cy="50%"
+            outerRadius={100}
+            innerRadius={60}    /* dona hueca */
+            startAngle={90}
+            endAngle={-270}
+            label={!noData}
+          >
