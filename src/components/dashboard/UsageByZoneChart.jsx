@@ -27,3 +27,5 @@ function UsageByZoneChart({ data }) {
 
   const noData = totalValue === 0; // true si TODAS las zonas suman 0 minutos
 
+  // Si no hay datos útiles, mostramos una dona "placeholder" gris
+  const displayData = noData
