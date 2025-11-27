@@ -39,3 +39,5 @@ function UsageByZoneChart({ data }) {
     <div className="chart-container" style={{ position: "relative" }}>
 
       <ResponsiveContainer width="100%" height={300}>
+        <PieChart>
+          <Pie
