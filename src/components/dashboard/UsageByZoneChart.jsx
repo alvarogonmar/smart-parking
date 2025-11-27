@@ -31,3 +31,6 @@ function UsageByZoneChart({ data }) {
   const displayData = noData
     ? [{ name: "Sin datos", value: 1 }] // valor arbitrario para que la dona dibuje algo
     : formattedData;
+
+  const COLORS = ["#22c55e", "#3b82f6", "#f59e0b", "#ef4444", "#8b5cf6"];
+  const displayColors = noData ? ["#e5e7eb"] : COLORS;
