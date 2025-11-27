@@ -29,3 +29,5 @@ function UsageByZoneChart({ data }) {
 
   // Si no hay datos útiles, mostramos una dona "placeholder" gris
   const displayData = noData
+    ? [{ name: "Sin datos", value: 1 }] // valor arbitrario para que la dona dibuje algo
+    : formattedData;
