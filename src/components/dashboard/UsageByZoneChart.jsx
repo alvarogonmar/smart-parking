@@ -52,3 +52,4 @@ function UsageByZoneChart({ data }) {
             endAngle={-270}
             label={!noData}
           >
+            {displayData.map((entry, index) => (
