@@ -53,3 +53,6 @@ function UsageByZoneChart({ data }) {
             label={!noData}
           >
             {displayData.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={displayColors[index % displayColors.length]} />
+            ))}
+          </Pie>
