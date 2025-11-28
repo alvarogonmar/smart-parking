@@ -83,3 +83,4 @@ function UsageByZoneChart({ data }) {
   );
 }
 
+export default UsageByZoneChart;
