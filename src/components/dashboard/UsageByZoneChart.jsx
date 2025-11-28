@@ -78,3 +78,8 @@ function UsageByZoneChart({ data }) {
         >
           Sin datos
         </div>
+      )}
+    </div>
+  );
+}
+
