@@ -76,3 +76,5 @@ function UsageByZoneChart({ data }) {
             textAlign: "center",
           }}
         >
+          Sin datos
+        </div>
