@@ -63,3 +63,6 @@ function UsageByZoneChart({ data }) {
       </ResponsiveContainer>
 
       {noData && (
+        <div
+          style={{
+            position: "absolute",
