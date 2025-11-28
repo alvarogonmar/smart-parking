@@ -58,3 +58,4 @@ function UsageByZoneChart({ data }) {
           </Pie>
 
           <Tooltip formatter={(value) => `${value.toFixed(2)} min`} />
+          {!noData && <Legend />}
