@@ -62,3 +62,4 @@ function UsageByZoneChart({ data }) {
         </PieChart>
       </ResponsiveContainer>
 
+      {noData && (
