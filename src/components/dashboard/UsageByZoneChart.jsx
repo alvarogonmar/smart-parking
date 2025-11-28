@@ -56,3 +56,5 @@ function UsageByZoneChart({ data }) {
               <Cell key={`cell-${index}`} fill={displayColors[index % displayColors.length]} />
             ))}
           </Pie>
+
+          <Tooltip formatter={(value) => `${value.toFixed(2)} min`} />
