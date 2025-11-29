@@ -11,3 +11,6 @@ function UsageCurrentChart({ data }) {
     { name: "Ocupados", value: occupiedCount },
     { name: "Libres", value: freeCount },
   ];
+
+  const COLORS = ["#ef4444", "#22c55e"];
+
