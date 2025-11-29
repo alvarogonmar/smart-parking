@@ -29,3 +29,9 @@ function UsageCurrentChart({ data }) {
         {chartData.map((entry, index) => (
           <Cell key={`cell-${index}`} fill={COLORS[index]} />
         ))}
+      </Pie>
+      <Tooltip />
+      <Legend />
+    </PieChart>
+  );
+}
