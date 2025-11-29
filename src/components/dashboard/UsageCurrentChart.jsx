@@ -26,3 +26,6 @@ function UsageCurrentChart({ data }) {
         fill="#8884d8"
         label
       >
+        {chartData.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={COLORS[index]} />
+        ))}
