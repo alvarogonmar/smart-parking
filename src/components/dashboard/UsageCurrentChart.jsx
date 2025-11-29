@@ -35,3 +35,5 @@ function UsageCurrentChart({ data }) {
     </PieChart>
   );
 }
+
+export default UsageCurrentChart;
