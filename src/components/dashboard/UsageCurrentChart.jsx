@@ -9,3 +9,5 @@ function UsageCurrentChart({ data }) {
 
   const chartData = [
     { name: "Ocupados", value: occupiedCount },
+    { name: "Libres", value: freeCount },
+  ];
