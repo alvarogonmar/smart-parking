@@ -5,3 +5,4 @@ function UsageCurrentChart({ data }) {
   if (!data || data.length === 0) return <p>No hay datos disponibles</p>;
 
   const occupiedCount = data.filter((s) => s.isOccupied).length;
+  const freeCount = data.filter((s) => !s.isOccupied).length;
