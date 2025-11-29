@@ -14,3 +14,5 @@ function UsageCurrentChart({ data }) {
 
   const COLORS = ["#ef4444", "#22c55e"];
 
+  return (
+    <PieChart width={300} height={300}>
