@@ -8,3 +8,4 @@ function UsageCurrentChart({ data }) {
   const freeCount = data.filter((s) => !s.isOccupied).length;
 
   const chartData = [
+    { name: "Ocupados", value: occupiedCount },
