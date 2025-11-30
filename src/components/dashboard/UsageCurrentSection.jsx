@@ -8,3 +8,4 @@ function UsageCurrentSection({ slots }) {
     slots.length > 0 ? ((occupiedCount / slots.length) * 100).toFixed(1) : 0;
 
   return (
+    <div className="chart-card">
