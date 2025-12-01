@@ -23,3 +23,5 @@ function UsageCurrentSection({ slots }) {
     </div>
   );
 }
+
+export default UsageCurrentSection;
