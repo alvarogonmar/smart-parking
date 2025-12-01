@@ -17,3 +17,9 @@ function UsageCurrentSection({ slots }) {
           <h3>Ocupación actual: {occupancy}%</h3>
         </div>
         <div className="status-chart">
+          <UsageCurrentChart data={slots} />
+        </div>
+      </div>
+    </div>
+  );
+}
