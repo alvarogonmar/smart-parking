@@ -11,3 +11,4 @@ function UsageCurrentSection({ slots }) {
     <div className="chart-card">
       <h2>Estado Actual (Tiempo Real)</h2>
       <div className="status-section">
+        <div className="status-info">
