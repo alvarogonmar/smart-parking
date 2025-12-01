@@ -12,3 +12,4 @@ function UsageCurrentSection({ slots }) {
       <h2>Estado Actual (Tiempo Real)</h2>
       <div className="status-section">
         <div className="status-info">
+          <h3>Lugares ocupados: {occupiedCount}</h3>
