@@ -10,4 +10,5 @@ import {
 } from "recharts";
 
 function UsageFrequencyChart({ data }) {
+  const formattedData = data.map(slot => ({
 
