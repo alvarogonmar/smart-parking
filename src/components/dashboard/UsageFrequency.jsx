@@ -9,4 +9,5 @@ import {
   ResponsiveContainer
 } from "recharts";
 
+function UsageFrequencyChart({ data }) {
 
