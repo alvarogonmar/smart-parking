@@ -22,4 +22,7 @@ function UsageFrequencyChart({ data }) {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
+          <Tooltip />
+          <Bar dataKey="frequency" fill="#3b82f6" />
+        </BarChart>
 
