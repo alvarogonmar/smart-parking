@@ -6,6 +6,7 @@ import UsageBySlotChart from "../components/dashboard/UsageBySlotChart";
 import UsageByZoneChart from "../components/dashboard/UsageByZoneChart";
 import UsageFrequencyChart from "../components/dashboard/UsageFrequency";
 import UsageCurrentSection from "../components/dashboard/UsageCurrentSection";
+import PredictionGrid from "../components/PredictionGrid"; 
 import "../css/Dashboard.css";
 
 function Dashboard() {
@@ -46,6 +47,7 @@ function Dashboard() {
           <UsageFrequencyChart data={slots} />
         </div>
             <UsageCurrentSection slots={slots} />
+          <PredictionGrid slots={slots} />
       </div>
     </div>
   );
