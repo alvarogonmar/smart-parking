@@ -8,3 +8,5 @@ function PredictionCard({ slots }) {
   useEffect(() => {
     async function runModel() {
       const trainedModel = await trainParkingModel(slots);
+      setModel(trainedModel);
+
