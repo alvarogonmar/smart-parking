@@ -6,3 +6,4 @@ function PredictionCard({ slots }) {
   const [prediction, setPrediction] = useState(null);
 
   useEffect(() => {
+    async function runModel() {
