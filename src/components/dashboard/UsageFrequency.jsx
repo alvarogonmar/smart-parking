@@ -15,4 +15,5 @@ function UsageFrequencyChart({ data }) {
     frequency: slot.usageFrequency || 0
   }));
 
+  return (
 
