@@ -25,4 +25,9 @@ function UsageFrequencyChart({ data }) {
           <Tooltip />
           <Bar dataKey="frequency" fill="#3b82f6" />
         </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
+}
 
+export default UsageFrequencyChart;
