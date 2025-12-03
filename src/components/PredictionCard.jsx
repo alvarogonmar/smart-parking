@@ -10,3 +10,4 @@ function PredictionCard({ slots }) {
       const trainedModel = await trainParkingModel(slots);
       setModel(trainedModel);
 
+      const firstSlot = slots[0];
