@@ -16,4 +16,5 @@ function UsageFrequencyChart({ data }) {
   }));
 
   return (
+    <div className="chart-container">
 
