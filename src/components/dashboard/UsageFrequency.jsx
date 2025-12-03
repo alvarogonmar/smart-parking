@@ -19,4 +19,7 @@ function UsageFrequencyChart({ data }) {
     <div className="chart-container">
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={formattedData}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
 
