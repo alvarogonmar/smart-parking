@@ -17,4 +17,6 @@ function UsageFrequencyChart({ data }) {
 
   return (
     <div className="chart-container">
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={formattedData}>
 
