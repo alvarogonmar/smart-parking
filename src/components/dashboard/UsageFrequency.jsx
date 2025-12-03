@@ -12,4 +12,7 @@ import {
 function UsageFrequencyChart({ data }) {
   const formattedData = data.map(slot => ({
     name: slot.id,
+    frequency: slot.usageFrequency || 0
+  }));
+
 
