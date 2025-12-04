@@ -1,0 +1,98 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Encabezado */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between; /* Título a la izq, botón a la der */
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  color: #1e293b;
+}
+
+/* Botón de regreso */
+.back-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #1e40af;
+}
+
+/* Contenedor de gráficas */
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Tarjetas de gráficas */
+.chart-card {
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
+  height: 350px;
+  transition: transform 0.2s ease;
+}
+
+.chart-card:hover {
+  transform: translateY(-5px);
+}
+
+.chart-card h2 {
+  text-align: center;
+  color: #0f172a;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Estado actual */
+.status-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.status-info {
+  text-align: left;
+  color: #1e293b;
+}
+
+.status-info h3 {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.status-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
