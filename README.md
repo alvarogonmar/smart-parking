@@ -1,12 +1,28 @@
 # Smart Parking IoT 🚗📡
 
-A modern IoT-based smart parking system built with **Vite + React**, **Firebase**, and real-time sensor simulation.  
-This project detects parking availability, updates the UI instantly, and stores data using Firebase services.
+A real-time parking slot monitoring system built with **Raspberry Pi**, **IR sensors**, **Firebase**, and a **React + Vite** web dashboard.
+The system detects available parking spots through IoT hardware and updates the web interface in real time.
 
 ## 🔗 Live Demo
 
 👉 **Visit the website:**  
 https://smartparkingi0t.netlify.app/
+
+---
+
+## 🧠 How It Works (IoT Overview)
+
+- A **Raspberry Pi** collects data from **IR sensors** installed in each parking spot.
+- The Pi processes signal to determine if a spot is **occupied** or **available**.
+- Sensor data is sent to **Firebase Firestore**.
+- The React web app listens for real-time updates and displays the current parking status instantly.
+
+Hardware used:
+
+- Raspberry Pi
+- IR sensors
+- Jumper cables & power supply
+- Firebase as real-time backend
 
 ---
 
