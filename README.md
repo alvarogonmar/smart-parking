@@ -8,6 +8,11 @@ The system detects available parking spots through IoT hardware and updates the 
 👉 **Visit the website:**  
 https://smartparkingi0t.netlify.app/
 
+## 🐍 Raspberry Pi Code
+
+Here is the Python script used to read the sensors and send data to Firebase:
+https://github.com/alvarogonmar/IoT-TC1004/blob/main/smart-parking/final1.py
+
 ---
 
 ## 🧠 How It Works (IoT Overview)
